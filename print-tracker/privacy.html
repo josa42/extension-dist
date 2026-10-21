@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Print Tracker extension: privacy policy</title>
+    <style>
+      body {
+        max-width: 42rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        font: 16px/1.6 system-ui, sans-serif;
+        color: #222;
+        background: #fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #ddd;
+          background: #1a1b1e;
+        }
+        a {
+          color: #74a7ff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy policy of the Print Tracker browser extension</h1>
+    <p>Last updated: 2026-10-21</p>
+
+    <p>
+      The Print Tracker extension connects the browser to a Print Tracker server that the user
+      runs themselves. It has no server, account or analytics of its own.
+    </p>
+
+    <h2>What the extension stores</h2>
+    <p>
+      The address of the user's Print Tracker server and the API token the user enters in the
+      options. Both stay in the local storage of the browser
+      (<code>chrome.storage.local</code>) and are not synced.
+    </p>
+
+    <h2>What the extension sends, and where</h2>
+    <p>
+      Only to the Print Tracker server the user entered, and only on pages of MakerWorld,
+      Printables and Thingiverse:
+    </p>
+    <ul>
+      <li>the address of the current model page, to ask whether the model is in the library;</li>
+      <li>
+        the address of the page and the tags the user typed, when the user chooses to save the
+        model;
+      </li>
+      <li>the API token, to authenticate these requests.</li>
+    </ul>
+    <p>
+      The extension reads no other pages, no browsing history and no personal data. It sends
+      nothing to the developer or to any third party, and it loads no code from the network.
+    </p>
+
+    <h2>What is not done</h2>
+    <ul>
+      <li>No data is sold or transferred to third parties.</li>
+      <li>No data is used for purposes unrelated to saving models to the user's server.</li>
+      <li>No data is used to determine creditworthiness or for lending.</li>
+    </ul>
+
+    <h2>Removing the data</h2>
+    <p>
+      Removing the extension deletes the stored address and token. What was saved to the Print
+      Tracker server is under the control of whoever runs that server.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions go to the developer through
+      <a href="https://github.com/josa42/extension-dist/issues">github.com/josa42/extension-dist</a>.
+    </p>
+  </body>
+</html>
