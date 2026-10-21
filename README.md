@@ -1,7 +1,7 @@
 # extension-dist
 
 Signed Firefox builds of my browser extensions, served by GitHub Pages at
-`https://josa42.github.io/extension-dist/`. CI of each extension pushes here
+`https://josa.gesell.me/extension-dist/`. CI of each extension pushes here
 through the `shared-extension-publish` workflow of
 [josa42/actions](https://github.com/josa42/actions); nothing is edited by
 hand.
