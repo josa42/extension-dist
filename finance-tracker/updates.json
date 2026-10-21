@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "finance-tracker-export@josa42.github.io": {
+      "updates": [
+        {
+          "version": "0.5.0",
+          "update_link": "https://josa.gesell.me/extension-dist/finance-tracker/finance-tracker-0.5.0.xpi"
+        }
+      ]
+    }
+  }
+}
