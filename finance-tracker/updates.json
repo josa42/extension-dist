@@ -25,6 +25,10 @@
         {
           "version": "0.11.0",
           "update_link": "https://josa.gesell.me/extension-dist/finance-tracker/finance-tracker-0.11.0.xpi"
+        },
+        {
+          "version": "0.12.0",
+          "update_link": "https://josa.gesell.me/extension-dist/finance-tracker/finance-tracker-0.12.0.xpi"
         }
       ]
     }
