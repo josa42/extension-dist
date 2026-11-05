@@ -13,6 +13,10 @@
         {
           "version": "0.8.0",
           "update_link": "https://josa.gesell.me/extension-dist/print-tracker/print-tracker-0.8.0.xpi"
+        },
+        {
+          "version": "0.9.0",
+          "update_link": "https://josa.gesell.me/extension-dist/print-tracker/print-tracker-0.9.0.xpi"
         }
       ]
     }
